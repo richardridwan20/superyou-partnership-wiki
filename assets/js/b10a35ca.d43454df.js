@@ -1,0 +1,1 @@
+(self.webpackChunksuperyou_partnership_wiki=self.webpackChunksuperyou_partnership_wiki||[]).push([[618],{9736:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/superyou-partnership-wiki/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/superyou-partnership-wiki/blog/tags/facebook"}')}}]);

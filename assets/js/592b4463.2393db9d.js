@@ -1,0 +1,1 @@
+(self.webpackChunksuperyou_partnership_wiki=self.webpackChunksuperyou_partnership_wiki||[]).push([[195],{6054:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/superyou-partnership-wiki/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/superyou-partnership-wiki/blog/tags/hello"}')}}]);

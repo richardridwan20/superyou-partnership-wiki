@@ -1,1 +1,0 @@
-# superyou-partnership-wiki

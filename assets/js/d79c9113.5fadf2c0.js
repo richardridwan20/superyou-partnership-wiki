@@ -1,0 +1,1 @@
+(self.webpackChunksuperyou_partnership_wiki=self.webpackChunksuperyou_partnership_wiki||[]).push([[329],{4905:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/superyou-partnership-wiki/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/superyou-partnership-wiki/blog/tags/docusaurus"}')}}]);
