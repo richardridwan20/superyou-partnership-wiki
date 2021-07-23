@@ -8,8 +8,8 @@ Superyou Partnership Module helps you and your business to be able to sell **Dig
 
 We also provides you with **3 main flows** of integration, so you can pick you own based on your needs: 
 - [API Connection](./integration-api-connection/authentication)
-- [iFrame Embedding]("")
-- [Bulk Upload]("")
+- iFrame Embedding
+- Bulk Upload
 
 ## What is Super You?
 

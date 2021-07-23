@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import SuperyouLogo from '../../static/img/superyou-logo.svg';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -19,7 +20,7 @@ function HomepageHeader() {
         fontSize: '20px',
       }}>
         <div className="container">
-          <img src="../../static/img/hero-banner.webp"></img>
+          <img src={useBaseUrl('/img/hero-banner.webp')} />
         </div>
         <div className="container" style={{
           display: 'flex-column',
@@ -31,7 +32,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/intro">
+              to="/docs/integration">
               Let's Get Started - 5min ⏱️
             </Link>
           </div>
