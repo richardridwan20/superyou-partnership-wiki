@@ -5,13 +5,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Superyou Partnership Wiki',
   tagline: 'Guidelines of Partnership for Superyou',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://richardridwan20.github.io',
+  baseUrl: '/superyou-partnership-wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'sequis-digital-channel', // Usually your GitHub org/user name.
-  projectName: 'superyou-partnership', // Usually your repo name.
+  trailingSlash: false,
+  organizationName: 'richardridwan20', // Usually your GitHub org/user name.
+  projectName: 'superyou-partnership-wiki', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Superyou Partnership Wiki',
