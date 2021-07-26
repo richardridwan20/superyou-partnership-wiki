@@ -1,15 +1,15 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Create Transaction
+# Get Product Detail
 
 _RESERVED FOR DIAGRAM_
 
 You can find the documentation of the API Flow connection in here:
 **[API Documentation (Swagger)](https://staging-partnership.superyou.co.id/partner/docs)**
 
-## Creating a new Transaction
+## Getting the Product
 
 This feature enables you to create a new transaction using the minimum data required and get quotation URL as the result.
 
