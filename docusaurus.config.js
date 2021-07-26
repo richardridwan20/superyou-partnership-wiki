@@ -1,18 +1,21 @@
+const dotenv = require('dotenv');
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+dotenv.config();
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Superyou Partnership Wiki',
   tagline: 'Guidelines of Partnership for Superyou',
-  url: 'https://richardridwan20.github.io',
-  baseUrl: '/superyou-partnership-wiki/',
+  url: process.env.WIKI_URL,
+  baseUrl: process.env.WIKI_BASE_URL,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
-  organizationName: 'richardridwan20', // Usually your GitHub org/user name.
-  projectName: 'superyou-partnership-wiki', // Usually your repo name.
+  organizationName: process.env.ORGANIZATION_NAME, // Usually your GitHub org/user name.
+  projectName: process.env.PROJECT_NAME, // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Superyou Partnership Wiki',
@@ -33,7 +36,7 @@ module.exports = {
           position: 'left'
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: process.env.WIKI_GITHUB_URL,
           label: 'GitHub',
           position: 'right',
         },
@@ -77,7 +80,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: process.env.WIKI_GITHUB_URL,
             },
           ],
         },
@@ -110,5 +113,5 @@ module.exports = {
         },
       },
     ],
-  ],
+  ]
 };
