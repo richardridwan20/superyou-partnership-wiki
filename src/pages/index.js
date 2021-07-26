@@ -11,30 +11,16 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        alignContent: 'center',
-        height: '50vh',
-        fontSize: '20px',
-      }}>
-        <div className="container">
-          <img src="../../static/img/hero-banner.webp"></img>
-        </div>
-        <div className="container" style={{
-          display: 'flex-column',
-          alignContent: 'left'
-        }}>
-          <SuperyouLogo title="Superyou Logo" className="logo"></SuperyouLogo>
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/intro">
-              Let's Get Started - 5min ⏱️
-            </Link>
-          </div>
+      <div className="container">
+        <SuperyouLogo title="Superyou Logo" className="logo"></SuperyouLogo>
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/integration">
+            Let's Get Started - 5min ⏱️
+          </Link>
         </div>
       </div>
     </header>
