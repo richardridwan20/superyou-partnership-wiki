@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Create Transaction
 
-_RESERVED FOR DIAGRAM_
+![Diagram](/img/create-transaction.png)
 
 You can find the documentation of the API Flow connection in here:
 **[API Documentation (Swagger)](https://staging-partnership.superyou.co.id/partner/docs)**
@@ -21,9 +21,9 @@ This feature enables you to create a new transaction using the minimum data requ
 
 | Key      | Rule | Type | Description | Example | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| **product_slug** | _required_ | _string_ | Obtainable via **[Getting the Product](https://google.com)** | super-care-protection
-| **product_code** | _required_ | _string_ | Obtainable via **[Getting the Product](https://google.com)** | DSCPR11
-| **product_plan_code** | _required_ | _string_ | Obtainable via **[Getting the Product](https://google.com)** | silver-plan-tanpa-perlindungan-covid-19
+| **product_slug** | _required_ | _string_ | Obtainable via **[Getting the Product](./get-product-detail#getting-the-product)** | super-care-protection
+| **product_code** | _required_ | _string_ | Obtainable via **[Getting the Product](./get-product-detail#getting-the-product)** | DSCPR11
+| **product_plan_code** | _required_ | _string_ | Obtainable via **[Getting the Product](./get-product-detail#getting-the-product)** | silver-plan-tanpa-perlindungan-covid-19
 | **holder_name** | _required_ | _string_ | Policy Holder Name | John Doe
 | **holder_gender** | _required_ | _string_ | Policy Holder Gender | **MALE** or **FEMALE**
 | **holder_dob** | _required_ | _string_ | Policy Holder Date of Birth | 21/06/1998 - **dd/mm/yyyy**
@@ -36,7 +36,7 @@ This feature enables you to create a new transaction using the minimum data requ
 | **beneficiary_status** | _optional_ | _string_ | Beneficiary Relationship | **SELF, MOTHER, FATHER, BROTHER, SISTER, DAUGHTER, SON, WIFE, HUSBAND**
 | **channel** | _optional_ | _string_ | Insurance Channel | partnership
 | **is_assist** | _optional_ | _string_ | Is Assist | _true_ or _false_
-| **rider_codes** | _optional_ | _string_ | Obtainable via **[Getting the Product](https://google.com)** | DCPR1
+| **rider_codes** | _optional_ | _string_ | Obtainable via **[Getting the Product](./get-product-detail#getting-the-product)** | DCPR1
 | **file_url** | _optional_ | _string_ | File URL | -
 | **transaction_type** | _optional_ | _string_ | Type of Transaction | **single-creation**
 | **origin_flag** | _required_ | _string_ | Origin Source of Request Quotation | **app, iframe, redirect**
