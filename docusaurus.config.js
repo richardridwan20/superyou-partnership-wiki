@@ -6,8 +6,8 @@ dotenv.config();
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Superyou Partnership Wiki',
-  tagline: 'Guidelines of Partnership for Superyou',
+  title: 'Superyou Wiki',
+  tagline: 'Guidelines for Superyou',
   url: process.env.WIKI_URL,
   baseUrl: process.env.WIKI_BASE_URL,
   onBrokenLinks: 'throw',
@@ -18,7 +18,7 @@ module.exports = {
   projectName: process.env.PROJECT_NAME, // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Superyou Partnership Wiki',
+      title: 'Superyou Wiki',
       logo: {
         alt: 'Superyou Logo',
         src: 'img/superyou-logo-color.svg',
